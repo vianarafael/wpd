@@ -1,0 +1,213 @@
+.container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.backgroundHidden {
+  height: 0;
+  width: 0;
+}
+
+.overlay {
+  position: fixed;
+  bottom: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.introText {
+  font-family: Trenda, "Noto Sans CJK SC", "Noto Sans CJK TC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #202020;
+  margin-bottom: 29px;
+  white-space: pre-line;
+}
+
+.fingerButton {
+  height: 42.95px;
+  width: 42.95px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  background: #d80100;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 56.05%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.inLivestreamButton {
+  background: #ea0429;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+  height: 48px;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 0 18px;
+}
+
+.beforeLivestreamButton {
+  background: white;
+  color: #202020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+  height: 48px;
+  outline: none;
+  border: none;
+  padding: 0 18px;
+  font-family: Trenda, "Noto Sans CJK SC", "Noto Sans CJK TC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.inLivestreamButton {
+  background: #ea0429;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+  height: 48px;
+  outline: none;
+  border: none;
+  padding: 0 18px;
+  font-family: Trenda, "Noto Sans CJK SC", "Noto Sans CJK TC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  span {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #00ff29;
+    margin-right: 10px;
+  }
+}
+
+.afterLivestreamButton {
+  background: white;
+  color: #202020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+  height: 48px;
+  outline: none;
+  border: none;
+  padding: 0 18px;
+  font-family: Trenda, "Noto Sans CJK SC", "Noto Sans CJK TC";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+@media screen and (min-height: 100px) {
+  .background {
+    object-position: 0 -171px;
+  }
+
+  .overlay {
+    bottom: 20px;
+  }
+
+  .fingerButton {
+    top: 299px;
+  }
+
+  .introText {
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-height: 680px) {
+  .background {
+    object-position: 0 -80px;
+  }
+
+  .overlay {
+    bottom: 23px;
+  }
+
+  .fingerButton {
+    top: 54%;
+  }
+
+  .introText {
+    margin-bottom: 23px;
+  }
+}
+
+@media screen and (min-height: 700px) {
+  .background {
+    object-position: 0 -96px;
+  }
+
+  .overlay {
+    bottom: 23px;
+  }
+
+  .fingerButton {
+    top: 420px;
+  }
+
+  .introText {
+    margin-bottom: 23px;
+  }
+}
+
+@media screen and (min-height: 819px) {
+  .background {
+    object-position: 0 0;
+  }
+
+  .overlay {
+    bottom: 23px;
+  }
+
+  .fingerButton {
+    top: 62%;
+  }
+
+  .introText {
+    margin-bottom: 29px;
+  }
+}

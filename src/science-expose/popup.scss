@@ -1,0 +1,117 @@
+$header-height: 50px;
+$page-padding: 30px;
+
+.se-popup {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: calc(var(--vh, 1vh) * 11);
+  background: #000;
+  mix-blend-mode: normal;
+  letter-spacing: 0.1em;
+  font-family: Trenda, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+
+  &-header {
+    margin-top: 36px;
+    position: relative;
+    z-index: 9;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: $page-padding;
+    height: $header-height;
+    padding: 0 $page-padding 0 17px;
+
+    &__back {
+      padding: 12px 15px;
+    }
+
+    &__logo {
+      height: 15px;
+      flex: 1;
+      margin-left: -35px;
+    }
+  }
+
+  &-body-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1 auto;
+  }
+
+  &-body {
+    position: relative;
+    z-index: 9;
+    padding-left: $page-padding;
+    padding-right: $page-padding;
+    flex: 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &.align-bottom {
+      justify-content: flex-end;
+    }
+
+    &.align-top {
+      justify-content: flex-start;
+    }
+  }
+
+  &-footer {
+    position: relative;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: $page-padding;
+    padding: 0 $page-padding;
+  }
+}
+
+.se-popup-overlay {
+  position: fixed;
+  z-index: 99;
+  top: $header-height;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  mix-blend-mode: normal;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: calc(var(--vh, 1vh) * 11);
+
+  &.full {
+    top: 0;
+  }
+}
+@media screen and (max-height: 730px) {
+  .se-popup,
+  .se-popup-overlay {
+    padding-bottom: calc(var(--vh, 1vh) * 4);
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .se-popup,
+  .se-popup-overlay {
+    &-body {
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+  }
+}

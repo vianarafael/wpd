@@ -1,0 +1,108 @@
+.timeline {
+  position: absolute;
+  top: 710px;
+  width: 100%;
+  overflow: hidden;
+  height: 100px;
+  pointer-events: none;
+  .inner {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    height: 50px;
+    width: 100%;
+    white-space: nowrap;
+    transition: transform 0.3s;
+    .container {
+      display: inline-flex;
+      width: 25%;
+      height: 100%;
+      .box {
+        transform: translateX(-25%);
+        width: 100%;
+        display: flex;
+        align-items: center;
+        .outerCircle {
+          border-radius: 50%;
+          // width: 43px;
+          // height: 43px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .innerCircle {
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 5px;
+            .fraction {
+              color: white;
+            }
+          }
+        }
+        .conContainer {
+          background-color: white;
+          width: 100%;
+          .connector {
+            display: flex;
+            align-items: center;
+            height: 2px;
+            background-color: #ea0429;
+            transition: all 0.5s;
+          }
+        }
+      }
+    }
+  }
+}
+
+.inactive {
+  .box {
+    .year {
+      opacity: 0;
+      transition: opacity 0.5s;
+    }
+    .outerCircle {
+      border: 0px;
+      .innerCircle {
+        transition: all 0.5s;
+        background-color: white;
+        width: 15px;
+        height: 15px;
+        .fraction {
+          opacity: 0;
+        }
+      }
+    }
+  }
+}
+
+.active {
+  .box {
+    .outerCircle {
+      transition: all 0.5s;
+      border: 1px solid #ea0429;
+      // width: 43px;
+      // height: 43px;
+      .innerCircle {
+        transition: all 0.5s;
+        background-color: #ea0429;
+        width: 29px;
+        height: 29px;
+        .fraction {
+          transition: all 0.5s;
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.year {
+  position: absolute;
+  top: -20px;
+  margin: 0;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-size: 14px;
+}

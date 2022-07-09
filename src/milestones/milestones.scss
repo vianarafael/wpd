@@ -1,0 +1,72 @@
+.header {
+  position: absolute;
+  top: 100px;
+}
+
+.logo {
+  position: absolute;
+  top: 170px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.copy {
+  position: absolute;
+  bottom: 142px;
+  width: 100%;
+  text-align: center;
+
+  h2 {
+    display: inline-block;
+    width: 328px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+  }
+}
+
+.play-btn {
+  // Resetting btn style
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+
+  background: transparent;
+
+  /* inherit font & color from ancestor */
+  color: inherit;
+  font: inherit;
+
+  /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+  line-height: normal;
+
+  /* Corrects font smoothing for webkit */
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+
+  /* Corrects inability to style clickable `input` types in iOS */
+  -webkit-appearance: none;
+
+  &.innovations {
+    position: absolute;
+    bottom: 377px;
+    left: 54px;
+  }
+
+  p {
+    font-family: 'Trenda';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 16px;
+    color: #fff;
+
+    text-align: center;
+    letter-spacing: 0.1em;
+  }
+}

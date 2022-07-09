@@ -1,0 +1,421 @@
+{
+  "livestream": {
+    "title": "World PITERA™ Day Livestream",
+    "desc": "Join us for the world premiere of stunning\nbare-skinned photographs of SK-II’s beloved\nbrand ambassadors.",
+    "cta": "BACK TO FOUNTAIN",
+    "LIVE": "LIVE",
+    "item1.title": "World premiere of Late Night Portraits",
+    "item1.time": "7.15pm JST",
+    "item2.title": "Interview with Melodee Morita, Mina (TWICE)\nand Ayaka Miyoshi",
+    "item2.time": "Up next"
+  },
+  "landingPage": {
+    "date": {
+      "01": "July 13th 2022",
+      "02": "7:00PM JST"
+    },
+    "description": {
+      "01": "A day of firsts.",
+      "02": "A day of discovery.",
+      "03": "A day of miracles.",
+      "04": "Join us for a virtual celebration of a skincare icon, PITERA™, at SK-II World PITERA™ Day.",
+      "05": "Scan to launch our virtual celebration on mobile."
+    }
+  },
+  "landingPageQR": {
+    "date": {
+      "01": "JOIN US TODAY",
+      "02": "July 13th 2022"
+    },
+    "description": {
+      "01": "A day of firsts.",
+      "02": "A day of discovery.",
+      "03": "A day of miracles.",
+      "04": "Join us for a virtual celebration of a skincare icon, PITERA™, at SK-II World PITERA™ Day.",
+      "05": "Scan to launch our virtual celebration on mobile."
+    }
+  },
+  "science": {
+    "title": "SCIENCE exposé",
+    "desc": "A first-in-the-world PITERA™ discovery from SK-II's 24/7 Skin Fluctuation Study.",
+    "cta": "START",
+    "ctaEnd": "PITERA™ ESSENTIALS",
+    "01": {
+      "part1": {
+        "title": "24/7 skin\nfluctuation\nstudy",
+        "desc": "This face is inspired by SK-II's first-in-the-world\nPITERA™ discovery in its latest study. It focuses\non understanding the daily skin condition of\nyoung women and the changes they experience\nevery day, throughout the day.",
+        "cta": "CONTINUE"
+      },
+      "part2": {
+        "title": "SKIN CAN LOOK UP\nTO 10 YEARS OLDER\nIN A DAY",
+        "desc": "SK-II's latest breakthrough 24/7 Skin Fluctuation\nStudy uncovers how women’s skin condition\nfluctuates greatly within a day, even looking\nup to almost 10 years older, due to\ndaily environmental stressors.",
+        "cta": "TAP TO DISCOVER"
+      }
+    },
+    "02": {
+      "title": "A DAY IN THE LIFE OF HER SKIN",
+      "desc": "She experiences changes across multiple\naspects of skin including pores, texture, dullness,\nandredness on a daily basis.",
+      "replay": "REPLAY",
+      "continue": "CONTINUE"
+    },
+    "03": {
+      "desc": "Move the slider from 7AM to 11PM to see her skin fluctuations."
+    },
+    "04": {
+      "title1": "BEFORE PITERA™",
+      "title2": "CHAOS SKIN",
+      "desc": "If unresolved, the accumulation of these daily\nfluctuating skin concerns can accelerate chronic\nand visible signs of early skin aging in the\nlong run.",
+      "replay": "REPLAY",
+      "cta": "APPLY PITERA™"
+    },
+    "05": {
+      "title": "THE POWER OF",
+      "desc": "PITERA™ is the essential skincare ingredient\nproven to stabilize her daily skin fluctuations and\ntransform her skin to Crystal Clear Skin.",
+      "cta": "TAP TO DISCOVER"
+    },
+    "06": {
+      "graph": {
+        "before": {
+          "1": "BEFORE PITERA™",
+          "2": "CHAOS SKIN"
+        },
+        "after": {
+          "1": "AFTER PITERA™",
+          "2": "HARMONIZED SKIN"
+        }
+      },
+      "desc": "Move the slider to see her skin\nfluctuations stabilize."
+    },
+    "07": {
+      "title": "DAY 1",
+      "desc": "With PITERA™, her chaotic daily skin fluctuations begin to stabilize in just one day."
+    },
+    "08": {},
+    "09": {
+      "title": "DAY 7",
+      "desc": "In just one week, her skin remains consistent from morning to night and throughout the day, her skin's worsening points are minimized with PITERA™."
+    },
+    "10": {},
+    "11": {
+      "desc1": "In one bottle of use<sup>*</sup>, her daily skin condition is\nstable and transformed to Crystal Clear Skin.",
+      "desc2": "<sup>*</sup>With regular use",
+      "replay": "REPLAY",
+      "cta": "CONTINUE"
+    },
+    "12": {
+      "title": "SKIN WELCOMES",
+      "title02": "IN LIKE ITS OWN",
+      "desc": "PITERA™ has a unique composition that resembles skin’s Natural Moisturizing Factors.",
+      "cta": "TAP TO DISCOVER"
+    },
+    "13": {
+      "title": "ONE AND ONLY PITERA™",
+      "desc1": "PITERA™ is absorbed quickly and deeply<sup>*</sup> into\nskin to deliver all its goodness.<sup>**</sup>",
+      "desc2": "<sup>*</sup>Within stratum corneum <sup>**</sup>Over 50 micro-nutrients"
+    },
+    "14": {
+      "replay": "REPLAY",
+      "title": "CRYSTAL CLEAR SKIN",
+      "desc1": "PITERA™ stabilizes and improves her skin\nholistically, transforming it to Crystal Clear.<sup>*</sup>",
+      "desc2": "<sup>*</sup>With regular use",
+      "cta": "END"
+    }
+  },
+  "essence": {
+    "01": {
+      "logo": "ESSENTIALS",
+      "name": "PITERA™ ESSENCE",
+      "tagLine": "Our Iconic Essence with over\n90% PITERA™ for Crystal Clear Skin",
+      "hook": "PITERA™: SK-II's exclusive and naturally derived ingredient\n crafted from a proprietary fermentation process of a unique\nyeast strain. (SK-II's owned Galactomyces Ferment Filtrate -\nskinconditioning agent)"
+    },
+    "02": {
+      "title": "FIRST-IN-THE-WORLD PITERA™\nDISCOVERY FROM SK-II 24/7 SKIN\nFLUCTUATION STUDY",
+      "desc": "Skin conditions fluctuate greatly within\n the day, even looking up to 10 years\nolder due to multiple daily stressors"
+    },
+    "03": {
+      "title": "SKIN WELCOMES IN",
+      "name": "PITERA™",
+      "desc": "PITERA™ resembles skin's Natural Moisturizing\n Factors. Skin recognizes and welcomes it, allowing it\nto be asborbed quickly and deeply* into your skin\ndelivering all goodness**, transforming to Crystal\nClear Skin.",
+      "footnote1": "*Within stratum corneum",
+      "footnote2": "**Over 50 micro-nutrients"
+    },
+    "04": {
+      "header": "BENEFITS",
+      "title": "PITERA™ FOR\nCRYSTAL CLEAR SKIN",
+      "next": "NEXT"
+    },
+    "carousel1": {
+      "header": "INNER SKIN HYDRATION*",
+      "text": "PITERA™ replenishes skin's Natural\n Moisturizing Factors and locks in moisture\nwithin the skin. Dryness caused by external\nfactors can be reduced.",
+      "footnote": "*within stratum corneum"
+    },
+    "carousel2": {
+      "header": "AGING CARE",
+      "text": "PITERA™ restores skin's moisture barrier,\n keeping skin supple and soft. It minimizes\nfine lines caused by dryness and leads to\nskin firmness",
+      "altText": "PITERA™ inhibits pre-aging and restores\nskin's moisture barrier, keeping skin supple\nand soft. It minimizes fine lines caused by\ndryness and leads to skin firmness.",
+      "footnote": "*within stratum corneum"
+    },
+    "carousel3": {
+      "header": "STRENGTHEN*",
+      "text": "PITERA™ strengthens the skin barrier and\nprotects skin from environmental stressors.",
+      "footnote": "*within stratum corneum",
+      "altText": "PITERA™ strengthens the skin barrier and\nprotects skin from environmental stressors.\nIt repairs and prevents skin damage caused\nby intrinsic and extrinsic stressors and\nanti-oxidation."
+    }
+  },
+  "cream": {
+    "01": {
+      "logo": "ESSENTIALS",
+      "name": "SKINPOWER CREAM",
+      "tagLine": "SK-II's best-selling cream targeting\nearly aging signs."
+    },
+    "02": {
+      "title": "DISCOVERY BASED ON\nOVER 40 YEARS OF\nSKIN AGING RESEARCH",
+      "01": "1. Asian skin’s elasticity declines faster at\nyounger ages.",
+      "02": "2. Loss of firmness is the first trigger of multiple\nearly-aging signs.",
+      "03": "3. Firmness doesn’t just refer to lifted skin –true\nfirmness can only be achieved when holistically\naddressed."
+    },
+    "03": {
+      "01": {
+        "title": "INGREDIENT HIGHLIGHTS",
+        "name": "PITERA™ X\nMULTI-FIRM\nTECHNOLOGY",
+        "desc": "SK-II’s one and only PITERA™ combines with cutting-\nedge Multi-Firm Technology to fight the early\nsigns of aging.",
+        "finePrint": "",
+        "footnotes": ""
+      },
+      "02": {
+        "title": "POWERED BY",
+        "name": "PITERA™",
+        "desc": "PITERA™ strengthens skin’s fundamentals for multi-\nfirming. Skin recognizes and welcomes PITERA™,\n allowing it to penetrate deeply to replenish inner\nhydration, tighten skin structure, and strengthen\nskin’s barrier.",
+        "finePrint": "PITERA™: SK-II's exclusive and naturally derived ingredient\n crafted from a proprietary fermentation process of a unique\nyeast strain. (SK-II's owned Galactomyces Ferment Filtrate -\nskin conditioning agent)",
+        "footnotes": "*Within stratum corneum\n** Over 50 micro-nutrients"
+      },
+      "03": {
+        "title": "ENHANCED WITH",
+        "name": "MULTI-FIRM\nTECHNOLOGY",
+        "desc": "Featuring the science of cell regeneration and\ncollagen production promotion across skin’s layers.\nThis improves skin density and volume through\nhydration.",
+        "finePrint": "",
+        "footnotes": ""
+      }
+    },
+    "04": {
+      "header": "BENEFITS",
+      "title": "MULTI-DIMENSIONAL\nFIRMING FROM\nANY ANGLE",
+      "next": "NEXT"
+    },
+    "carousel1": {
+      "header": "SMOOTHER TEXTURE",
+      "text": "SKINPOWER keeps skin soft and supple\nwhile minimizing fine lines,\nwrinkles and pores."
+    },
+    "carousel2": {
+      "header": "FULLER STRUCTURE",
+      "text": "SKINPOWER replenishes inner hydration\nand tightens skin structure, protecting skin\nagainst skin sagging and dropping."
+    },
+    "carousel3": {
+      "header": "STRONGER BARRIER",
+      "text": "SKINPOWER protects skin against redness,\nroughness and flakiness."
+    }
+  },
+  "genoptics": {
+    "01": {
+      "logo": "ESSENTIALS",
+      "name": "GENOPTICS\nAURA ESSENCE",
+      "tagLine": "SK-II’s undisputed\n No.1 brightening essence.",
+      "hook": "*In terms of value and volume sales in the relevant market\nas of October 2021."
+    },
+    "02": {
+      "title": "DISCOVERY BASED ON\n25 YEARS OF RESERACH",
+      "desc": "Dullness is not just caused by melanin or\npigmentation. It’s caused by multiple\n“anti-aura” parameters both visible on\nthe skin surface and invisible within* that\ncome out as skin clouds.",
+      "footnote": "* Stratum corneum"
+    },
+    "03": {
+      "01": {
+        "title": "INGREDIENT HIGHLIGHTS",
+        "name": "PITERA™ X\nGENOPTICS AURA\nCOCKTAIL",
+        "desc": "SK-II’s one and only PITERA™ and the most advanced\nGenOptics Aura Technology help reduce “anti-aura”\nparameters and skin clouds to visibly brighten up skin\ntone from within.",
+        "finePrint": "",
+        "footnotes": ""
+      },
+      "02": {
+        "title": "POWERED BY",
+        "name": "PITERA™",
+        "desc": "PITERA™ provides the fundamentals for Aura skin.\nSkin recognizes and welcomes PITERA™, allowing it to\npenetrate deeply and work on all skin clouds,\ntransforming skin to Crystal Clear.",
+        "finePrint": "PITERA™: SK-II's exclusive and naturally derived ingredient\n crafted from a proprietary fermentation process of a unique\nyeast strain. (SK-II's owned Galactomyces Ferment Filtrate -\nskin conditioning agent)",
+        "footnotes": "*Within stratum corneum\n** Over 50 micro-nutrients"
+      },
+      "03": {
+        "title": "ENHANCED WITH",
+        "name": "GENOPTICS AURA\nCOCKTAIL",
+        "desc": "SK-II’s most advanced brightening cocktail with De-Melano\nP3C® targets anti-aura parameters and\nreduces the appearance of dullness and\ndark spots.",
+        "finePrint": "",
+        "footnotes": ""
+      }
+    },
+    "04": {
+      "header": "BENEFITS",
+      "title": "SWITCH ON YOUR\nBRIGHT AND\nRADIANT AURA",
+      "next": "NEXT"
+    },
+    "carousel1": {
+      "header": "TARGETS ANTI-AURA PARAMETERS",
+      "text": "Acts across skin layers*\nto clear anti-aura parameters that cause\nskin to appear dull and uneven.",
+      "footnote": "*within stratum corneum"
+    },
+    "carousel2": {
+      "header": "REMOVES SKIN CLOUDS AND SPOTS",
+      "text": "Skin clouds and spots caused by melanin\nand inflammation block skin’s inner aura\nfrom shining through.",
+      "footnote": ""
+    },
+    "carousel3": {
+      "header": "UNLEASHES SKIN’S AURA",
+      "text": "Visibly brightens up skin tone from within by\nreducing anti-aura skin clouds and spots.",
+      "footnote": ""
+    }
+  },
+  "press-kit": {
+    "header": "PRESS KIT",
+    "title": "World PITERA® Day",
+    "subtitle": "Download valuable insights\n to share with your audience",
+    "downloadButton": "DOWNLOAD ALL ASSETS",
+    "0": {
+      "video": "VIDEO / 2min, 326MB",
+      "title": "FLY THROUGH\nTHE EXPERIENCE",
+      "subtitle": "Download a virtual flythrough of \nthe first-ever World PITERA™ Day.",
+      "footnote": null
+    },
+    "1": {
+      "video": "VIDEO / 2min, 326MB",
+      "title": "A DAY\nIN THE LIFE\nOF HER SKIN",
+      "subtitle": "Understand her skin's daily\nfluctuations and the power\n of PITERA™",
+      "footnote": null
+    },
+    "2": {
+      "video": "VIDEO / 2min, 326MB",
+      "title": "PITERA™\nMILESTONES",
+      "subtitle": "Uncover the breakthrough discoveries\nbehind the science of PITERA™.",
+      "footnote": null
+    },
+    "3": {
+      "video": "VIDEO / 2min, 326MB",
+      "title": "PITERA™\nESSENCE",
+      "subtitle": " Transform skin to Crystal Clear with\nSK-II's iconic essence.*",
+      "footnote": " *With regular use"
+    }
+  },
+  "innovation": {
+    "0": {
+      "title": "WORLD'S FIRST SK-II\nPITERA™ ESSENCE",
+      "subtitle": "Nicknamed “Miracle Water”, PITERA™ Essence contains over 90% PITERA™ to transformskin to Crystal Clear.*",
+      "footnote": "*With regular use",
+      "year": "1980"
+    },
+    "1": {
+      "title": "SK-II LAUNCHES\nFACIAL TREATMENT MASKS",
+      "subtitle": "SK-II disrupts the skincare industry with one of the world’s first commercially available facial sheet masks.",
+      "year": "1981"
+    },
+    "2": {
+      "title": "SK-II BECOMES AN EXPERT\nIN ANTI- AGING",
+      "subtitle": "SK-II sets its way to become an expert in anti-aging and early-aging care by launching SK-II Signs Treatment.",
+      "year": "2000"
+    },
+    "3": {
+      "title": "SK-II LAUNCHES DROPPER\nBRIGHTENING ESSENCE",
+      "subtitle": "SK-II creates the world’s first dropper brightening essence powered by PITERA™ to help reduce the appearance of uneven skin tone.",
+      "year": "2003"
+    },
+    "4": {
+      "title": "SK-II\n INTRODUCES LXP",
+      "subtitle": "SK-II’s most luxurious range with highly concentrated PITERA™ to date.",
+      "year": "2005"
+    },
+    "5": {
+      "title": "SK-II LAUNCHES\n STEMPOWER CREAM",
+      "subtitle": "Breakthrough stem cell research led SK-II to discover that PITERA™ targets the source of early-aging. Stempower Cream helps restore radical firmness in skin.",
+      "year": "2005"
+    },
+    "6": {
+      "title": "SK-II IS THE PIONEER\n OF AURA SKIN",
+      "subtitle": "SK-II disrupts Skin Brightening category by creating ‘Aura Skin’ with the launch of Genoptics Aura Essence powered by PITERA™, known as Little Light Bulb.",
+      "year": "2016"
+    },
+    "7": {
+      "title": "SK-II DEBUTS SKINPOWER\nFOR EARLY-AGING CARE",
+      "subtitle": "SK-II creates a new milestone in early-aging care by tackling multi-firmness with the launch of the SKINPOWER series powered by PITERA™.",
+      "year": "2020"
+    }
+  },
+  "discoveries": {
+    "0": {
+      "title": "SCIENTISTS\nDISCOVER PITERA™",
+      "subtitle": "While on a fervent quest to uncover a\nrevolutionary skincare ingredient that\nwould make beautiful skin a reality,\na group of scientists discovered the\niconic PITERA™.",
+      "year": "1970s"
+    },
+    "1": {
+      "title": "SK-II AKITA STUDY PHASE 1",
+      "subtitle": "For over 10 years, SK-II scientists analyzed\nthe skin phenotype of 108 women aged\nbetween 16-74 in Akita, Japan. They tracked\nskin’s bio-physics in response to natural aging\npatterns, gaining unique skin knowledge and\nbuilding SK-II’s pioneering skin age data bank\nfor continuous research purposes.",
+      "year": "1990"
+    },
+    "2": {
+      "title": "PITERA™ FOUND TO\nSUPPRESS NITRIC OXIDE",
+      "subtitle": "PITERA™ is found to suppress Nitric Oxide\nleading to anti-oxidation for Crystal Clear Skin.",
+      "year": "2004"
+    },
+    "3": {
+      "title": "PITERA™ FOUND TO ENHANCE \nSKIN RESILIENCE",
+      "subtitle": "PITERA™ was found to strengthen skin cell\nrenewal cycle for more resilient skin. Research\nalso showed that PITERA™ increases the\nproduction of natural Hyaluronic Acid in skin.",
+      "year": "2007"
+    },
+    "4": {
+      "title": "PITERA™ FOUND TO\nIMPROVE HYDRATION",
+      "subtitle": "PITERA™ is found to enhance the enzyme\nto produce skin’s Natural Moisturizing\nFactors, allowing inner-hydration to lock\nmoisture from within.",
+      "title2": "PITERA™ DISCOVERED TO \nSUPPRESS MELANIN DARKENING",
+      "subtitle2": "Further research shows PITERA™\nsuppresses melanin darkening that leads\nto long-lasting pigmentation.",
+      "year": "2010"
+    },
+    "5": {
+      "title": "SK-II AKITA STUDY PHASE 2",
+      "subtitle": "In the second phase of the study, the same 108\nwomen used a SK-II PITERA™ regimen for one\nyear. After using SK-II with PITERA™, women saw\nsignificant skin improvements on all dimensions -\ntexture, radiance, firmness, spot control and\nwrinkle resillience - by up to 90%.",
+      "year": "2011"
+    },
+    "6": {
+      "title": "PITERA™ SHOWN TO\nINCREASE SKIN’s\nRESISTANCE TO UV DAMAGE",
+      "subtitle": "PITERA™ suppresses inflammation and increases\nresistance against UV damage to protect and\ntransform skin to Crystal Clear*.",
+      "footnote": "*With regular use",
+      "year": "2014"
+    },
+    "7": {
+      "title": "SKIN DESTINY STUDY",
+      "subtitle": "In an unprecedented study, SK-II compared the\nskin of 141 long-term PITERA™ Essence users – with\n an average of 13 years of use – with the skin of 137\nnon-PITERA™ users of a similar age. Results\nshowed that long-term users had an average skin\nage 13.2 years younger than their real age.",
+      "subtitle2": "of long-term\nSK-II users had better\nskin compared to\nnon-users of the\nsame age group. ",
+      "year": "2015"
+    },
+    "8": {
+      "title": "PITERA™ FOUND TO\nPROTECT SKIN CELLS",
+      "subtitle": "PITERA™ protects skin cells from\nsenescence by autophagy mechanisms.",
+      "year": "2019"
+    },
+    "9": {
+      "header": "UP NEXT:",
+      "title": "PITERA™\nPRODUCT\nINNOVATIONS",
+      "subtitle": "Trace SK-II’s monumental product\nlaunches since the first-ever bottle\nof PITERA™ Essence.",
+      "button": "END"
+    }
+  },
+  "welcome": {
+    "description": "Immerse in the miraculous world of PITERA™ \n in this experience dedicated to the iconic \n ingredient at the heart of SK-II.",
+    "joinLiveStreamButtonText": "JOIN LIVESTREAM",
+    "replayLiveStreamButtonText": "REPLAY LIVESTREAM"
+  },
+  "home": {
+    "instructionText": "TAP DROP TO BEGIN",
+    "privacyLinkText": "Privacy",
+    "termsLinkText": "Terms and Conditions",
+    "DoNotSellMyPersonalInformationLinkText": "Do Not Sell My Personal Information",
+    "CAPrivacyLinkText": "CA Privacy"
+  },
+  "pitera-essentials": {
+    "instructionPTE": "Tap to learn more about\nPITERA™ Essence.",
+    "instructionSPC": "Tap to learn more about\nSKINPOWER Cream.",
+    "instructionGAE": "Tap to learn more about\nGenOptics Aura Essence."
+  }
+}

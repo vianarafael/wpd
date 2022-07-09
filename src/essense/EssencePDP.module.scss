@@ -1,0 +1,307 @@
+//@TODO fix device-height to max height
+.img {
+  position: relative;
+  z-index: -3;
+  object-fit: cover;
+}
+
+.img1 {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+}
+
+.img2 {
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+  background: #faf5f0;
+}
+
+.img3 {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+}
+//might have to fix the sizing of the second image
+.img2Container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  z-index: -4;
+  background: #faf5f0;
+}
+
+.container {
+  z-index: 1;
+  width: 100vw;
+  position: relative;
+}
+
+.container4 {
+  @media screen and (device-height: 844px) {
+    height: 800px;
+  }
+
+  @media screen and (device-height: 667px) {
+    height: 667px;
+  }
+
+  height: 771px;
+}
+
+.body {
+  overflow-x: hidden;
+  height: 100%;
+
+  // scroll-snap-type: y proximity;
+  background-color: #faf5f0;
+}
+
+.textContainer {
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  white-space: pre-wrap;
+}
+
+.textContainer1 {
+  align-items: center;
+  height: 100vh;
+}
+
+.textContainer2 {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  h2 {
+    width: 80%;
+    letter-spacing: 2px;
+    margin-left: 54px;
+    margin-right: 54px;
+    margin-bottom: 0;
+    margin-top: 48px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #202020;
+  }
+  &.chinese {
+    h2 {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+    }
+    h3 {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+
+  h3 {
+    color: #404040;
+    margin-top: 16.6px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+  }
+}
+
+.textContainer3 {
+  @media only screen and (device-height: 844px) {
+    top: 417px;
+    height: calc(100% - 417px);
+    &.chinese {
+      height: calc(100% - 413px);
+      top: 413px;
+    }
+  }
+  &.chinese {
+    h2 {
+      font-size: 16px;
+      font-weight: 400;
+    }
+    h1 {
+      margin-top: 4px;
+    }
+    h3 {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    p {
+      bottom: 26px;
+      line-height: 16px;
+    }
+  }
+  height: calc(100% - 384px);
+  top: 384px;
+  width: 90%;
+  align-items: flex-start;
+  display: flex;
+  left: 20px;
+
+  h2 {
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 2px;
+    left: 24px;
+    margin-bottom: 0;
+  }
+
+  h1 {
+    margin-top: 6px;
+    font-size: 27px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+
+  h3 {
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+    line-height: 22px;
+  }
+
+  p {
+    position: absolute;
+    // @media screen and (max-height: 670px) {
+    //   margin-top: 24px;
+    // }
+    line-height: 14px;
+    font-size: 12px;
+    font-weight: 400;
+    bottom: 30px;
+  }
+}
+
+.header {
+  height: 20px;
+  font-size: 27px;
+  font-weight: 400;
+  display: flex;
+  letter-spacing: 1px;
+  margin-top: 54px;
+  margin-bottom: 0;
+  align-items: center;
+}
+
+.logo {
+  object-fit: contain;
+  height: 100%;
+}
+
+.name {
+  @media only screen and (device-height: 844px) {
+    margin-top: 62px;
+    &.chinese {
+      margin-top: 56px !important;
+    }
+  }
+  &.chinese {
+    font-size: 27px;
+    margin-top: 49px;
+  }
+  margin-top: 51px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+}
+
+.tagLine {
+  @media only screen and (device-height: 844px) {
+    margin-top: 24px;
+  }
+  &.chinese {
+    line-height: 24px;
+    margin-top: 18px;
+    font-size: 16px;
+  }
+  margin-top: 12px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.hook {
+  position: absolute;
+  bottom: 28px;
+  width: 90%;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+  text-align: center;
+  width: 100%;
+  &.chinese {
+    line-height: 16px;
+    letter-spacing: 1px;
+  }
+}
+
+.carouselText {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  letter-spacing: 2px;
+  white-space: pre-wrap;
+  &.chinese {
+    h2 {
+      margin-top: 35px;
+      font-size: 16px;
+      font-weight: 400;
+      height: 26px;
+    }
+    h1 {
+      margin-top: 3px;
+      line-height: 34px;
+      margin-bottom: 30px;
+    }
+  }
+  h2 {
+    margin-top: 38px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  h1 {
+    margin-top: 12px;
+    font-size: 27px;
+    line-height: 32.4px;
+    font-weight: 400;
+    margin-bottom: 28px;
+  }
+}
+
+.backContainer {
+  position: absolute;
+  left: 27px;
+}
+
+.backTop {
+  width: 9px;
+  height: 1px;
+  background-color: black;
+  transform: rotate(45deg);
+  transform-origin: 0%;
+}
+
+.backBottom {
+  width: 9px;
+  height: 1px;
+  background-color: black;
+  transform: rotate(-45deg);
+  transform-origin: 0%;
+}

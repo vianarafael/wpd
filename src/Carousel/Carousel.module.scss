@@ -1,0 +1,177 @@
+//@TODO fix device-height to max height
+.carousel {
+  position: relative;
+  height: 490px;
+  background-color: #faf5f0;
+
+  // width: 100%;
+  @media screen and (device-height: 844px) {
+    height: 510px;
+  }
+}
+
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+  height: 100%;
+}
+
+.carouselItem {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  transition: transform 0.3s;
+}
+
+.left {
+  @media only screen and (max-height: 670px) {
+    transform: translateX(20%);
+  }
+
+  @media screen and (device-height: 844px) {
+    transform: translateX(10%);
+  }
+
+  transform: translateX(10%);
+}
+
+.right {
+  @media only screen and (max-height: 670px) {
+    transform: translateX(-20%);
+  }
+
+  // transform: translateX(-10%);
+  transform: translateX(-10%);
+}
+
+.indicator {
+  height: 6px;
+  width: 6px;
+  background-color: #404040;
+  border-radius: 50%;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.indicatorContainer {
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  @media screen and (max-height: 670px) {
+    padding: 10px;
+  }
+}
+
+.nextButton {
+  width: 20%;
+  height: 100%;
+  border: 1px solid #ea0429;
+  border-radius: 25px;
+  text-align: center;
+  box-sizing: border-box;
+  margin: auto;
+  display: flex;
+  text-justify: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  width: 92px;
+}
+
+.nextButtonContainer {
+  margin-top: 24px;
+  height: 46px;
+  color: #ea0429;
+}
+
+.active {
+  background-color: #ea0429;
+}
+
+.activeCard {
+  color: blue;
+}
+
+.carouselImg {
+  @media screen and (max-height: 844px) {
+    width: 340px;
+    border-radius: 33px;
+  }
+
+  @media screen and (device-height: 812px) {
+    width: 326px;
+    height: 490px;
+  }
+}
+
+.itemContainer {
+  &.chinese {
+    div {
+      width: 90%;
+      h3 {
+        font-weight: 400;
+        font-size: 16px;
+        margin-bottom: 16px;
+      }
+      h4 {
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+  }
+  height: 100%;
+  width: 100%;
+
+  // margin-left: 16px;
+  // margin-right: 16px;
+  display: flex;
+  justify-content: center;
+  line-height: 24px;
+  position: relative;
+
+  div {
+    position: absolute;
+    color: white;
+    width: 85%;
+    @media screen and (device-height: 844px) {
+      top: 308px;
+      height: calc(100% - 308px);
+    }
+
+    top: 292px;
+    height: calc(100% - 292px);
+    line-height: 22px;
+    text-align: center;
+    font-size: 14px;
+
+    h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+
+      letter-spacing: 1.5px;
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    h4 {
+      white-space: pre-wrap;
+      font-weight: 400;
+      margin: 0;
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    h5 {
+      width: 100%;
+      position: absolute;
+      font-weight: 400;
+      font-size: 11.5px;
+      margin: 0;
+      bottom: 16px;
+    }
+  }
+}

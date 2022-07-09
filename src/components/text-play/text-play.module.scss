@@ -1,0 +1,24 @@
+.wrapper_text_play {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  .txtContent {
+    width: 109.13px;
+    height: 22.04px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.9761px;
+    line-height: 120%;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 8px;
+    margin-bottom: 19.36px;
+  }
+}

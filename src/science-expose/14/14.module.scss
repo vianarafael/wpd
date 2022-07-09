@@ -1,0 +1,28 @@
+.video {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 5%;
+}
+.subText{
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 140%;
+  color: #999999;
+  margin-top: 20px;
+  letter-spacing: 0;
+  margin-bottom: calc(var(--vh, 1vh) * 4);
+}
+
+.footer .ctaButton{
+  width: unset;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+@media screen and (max-height: 730px) {
+  .video {
+    width: 90%;
+    left: 5%;
+  }
+}

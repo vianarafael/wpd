@@ -1,0 +1,513 @@
+body {
+  margin: 0;
+
+  /* mobile viewport bug fix */
+  height: stretch;
+  width: stretch;
+  overflow: hidden;
+}
+
+#root {
+  /* mobile viewport bug fix */
+  height: stretch;
+  width: stretch;
+}
+
+.mobile {
+  display: none;
+}
+
+.desktop {
+  display: unset;
+}
+
+.landing-page-container {
+  /* mobile viewport bug fix */
+  height: 100vh;
+  width: stretch;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wrap-image-drop img {
+  width: 100%;
+}
+
+.content__logo {
+  max-width: 267px;
+  text-align: center;
+
+  img:nth-child(1) {
+    width: 32%;
+    margin-bottom: 27px;
+  }
+
+  img:nth-child(2) {
+    width: 100%;
+  }
+}
+
+.content__text {
+  text-align: center;
+  color: #202020;
+}
+
+.content__text-date {
+  font-family: "Domaine Sans Text", Arial, sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-bottom: 26px;
+}
+
+.content__text-description {
+  font-family: Trenda, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.3;
+  letter-spacing: 0.01em;
+  white-space: pre-line;
+}
+
+.content__text-qr {
+  font-family: Trenda, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.3;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  max-width: 240px;
+}
+
+.content__image-qr {
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+
+.landing-page-13-july {
+  .content__text-date {
+    letter-spacing: 0.05em;
+    line-height: 1.3;
+
+    span {
+      font-weight: 600;
+    }
+  }
+
+  .content__text-description {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1195px) {
+  .wrap-image-drop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+  }
+
+  .content {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    height: stretch;
+  }
+
+  .content__text {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .mobile {
+    display: unset;
+  }
+
+  .desktop {
+    display: none;
+  }
+}
+
+/* Landscape Ipad */
+@media (orientation: landscape) and (max-width: 1194px) {
+  .wrap-image-drop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 0;
+  }
+
+  .content {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    height: stretch;
+  }
+
+  .content__text {
+    max-width: 350px;
+  }
+}
+
+/* Landscape Mobile */
+@media (orientation: landscape) and (max-width: 896px) {
+  .content__logo {
+    max-width: 170px;
+
+    img:nth-child(1) {
+      margin-bottom: 15px;
+    }
+  }
+
+  .content__text {
+    max-width: 220px;
+  }
+
+  .content__text-date {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .content__text-description {
+    font-size: 15px;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 376px) {
+  .wrap-image-drop {
+    top: -50px;
+  }
+}
+
+/* Portrait Ipad */
+@media (orientation: portrait) and (max-width: 1024px) {
+  .content {
+    text-align: center;
+    margin-top: 48px;
+  }
+
+  .content__logo {
+    margin: 0 auto;
+  }
+
+  .content__text {
+    max-width: 580px;
+    margin: 0 auto;
+  }
+
+  .content__text-date {
+    font-size: 32px;
+  }
+
+  .content__text-description {
+    font-size: 24px;
+  }
+}
+
+@media (orientation: portrait) and (max-width: 768px) {
+  .content__logo {
+    max-width: 200px;
+    margin-bottom: 18px;
+
+    img:nth-child(1) {
+      margin-bottom: 15px;
+    }
+  }
+
+  .content__text {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  .content__text-date {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .content__text-description {
+    font-size: 18px;
+  }
+}
+
+@media (orientation: portrait) and (max-width: 480px) {
+  .content__logo {
+    max-width: 170px;
+  }
+
+  .content__text-date {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  .content__text-description {
+    font-size: 15px;
+  }
+
+  .content {
+    margin-top: 24px;
+  }
+
+  .content__text {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
+@media (orientation: portrait) and (max-width: 350px) {
+  .content__logo {
+    max-width: 150px;
+  }
+
+  .content__text-date {
+    font-size: 16px;
+  }
+
+  .content__text-description {
+    font-size: 12px;
+  }
+}
+
+@media (orientation: portrait) and (max-height: 670px) {
+  .content__logo {
+    max-width: 146px;
+  }
+
+  .wrap-image-drop {
+    img {
+      margin-top: -24px;
+    }
+  }
+}
+
+@media (orientation: portrait) and (max-height: 600px) {
+  .content__logo {
+    max-width: 132px;
+  }
+
+  .content__text-date {
+    margin-bottom: 12px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .content__text-description {
+    font-size: 14px;
+  }
+
+  .wrap-image-drop {
+    text-align: center;
+
+    img {
+      width: 300px;
+      margin-top: -34px;
+    }
+  }
+}
+
+.isChineseSC,
+.isChineseTC {
+  .content__text {
+    max-width: 320px;
+  }
+
+  .content__text-date {
+    font-size: 24px;
+  }
+
+  .content__text-description {
+    font-size: 18px;
+  }
+
+  /* Landscape Mobile */
+  @media (orientation: landscape) and (max-width: 896px) {
+    .content {
+      width: 86%;
+    }
+
+    .content__text {
+      max-width: 220px;
+    }
+
+    .content__text-date {
+      font-size: 18px;
+      line-height: 22px;
+    }
+
+    .content__text-description {
+      font-size: 12px;
+    }
+  }
+
+  /* Portrait Ipad */
+  @media (orientation: portrait) and (max-width: 1024px) {
+    .content__text-date {
+      font-size: 32px;
+    }
+
+    .content__text-description {
+      font-size: 24px;
+    }
+  }
+
+  @media (orientation: portrait) and (max-width: 768px) {
+    .content__text-date {
+      font-size: 24px;
+    }
+
+    .content__text-description {
+      font-size: 18px;
+    }
+  }
+
+  @media (orientation: portrait) and (max-width: 480px) {
+    .content__text {
+      max-width: 220px;
+    }
+
+    .content__text-date {
+      font-size: 18px;
+      line-height: 22px;
+    }
+
+    .content__text-description {
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+
+  @media (orientation: portrait) and (max-width: 350px) {
+    .content__text-date {
+      font-size: 16px;
+    }
+
+    .content__text-description {
+      font-size: 10px;
+    }
+  }
+}
+
+.isChineseSC {
+  .content__text {
+    max-width: 380px;
+  }
+
+  .content__text-date,
+  .content__text-description {
+    font-weight: 400;
+    font-family: "Noto Sans CJK SC", Arial, sans-serif;
+  }
+
+  /* Portrait Ipad */
+  @media (orientation: portrait) and (max-width: 1024px) {
+    .content__text {
+      max-width: 500px;
+    }
+  }
+
+  @media (orientation: portrait) and (max-width: 768px) {
+    .content__text {
+      max-width: 380px;
+    }
+  }
+
+  /* Portrait Mobile */
+  @media (orientation: portrait) and (max-width: 480px) {
+    .content__text {
+      max-width: 260px;
+    }
+  }
+
+  /* Landscape Mobile */
+  // @media (orientation: landscape) and (max-width: 896px) {
+  //   .content__text {
+  //     max-width: 250px;
+  //   }
+  // }
+
+  @media (orientation: portrait) and (max-height: 600px) {
+    .content__text-date,
+    .content__logo {
+      margin-bottom: 12px;
+    }
+  }
+}
+
+.isChineseTC {
+  .content__text {
+    max-width: 330px;
+  }
+
+  .content__text-date,
+  .content__text-description {
+    font-weight: normal;
+    font-family: "Noto Sans CJK TC", Arial, sans-serif;
+  }
+
+  .content__text-date {
+    letter-spacing: -0.01em;
+  }
+
+  .content__text-description {
+    line-height: 24px;
+    font-weight: lighter;
+  }
+
+  @media (orientation: landscape) and (max-width: 896px) {
+    .content__text-description {
+      line-height: 18px;
+    }
+  }
+
+  @media (orientation: portrait) and (max-width: 1024px) {
+    .content__logo {
+      margin-bottom: 24px;
+    }
+
+    .content__text {
+      max-width: 440px;
+    }
+
+    .content__text-date {
+      margin-bottom: 32px;
+    }
+
+    .content__text-description {
+      line-height: 32px;
+    }
+  }
+
+  @media (orientation: portrait) and (max-width: 768px) {
+    .content__logo {
+      margin-bottom: 18px;
+    }
+
+    .content__text-date {
+      margin-bottom: 24px;
+    }
+  }
+
+  @media (orientation: portrait) and (max-width: 480px) {
+    .content__text-description {
+      line-height: 18px;
+    }
+  }
+
+  @media (orientation: portrait) and (max-height: 600px) {
+    .content__text-date,
+    .content__logo {
+      margin-bottom: 12px;
+    }
+  }
+}

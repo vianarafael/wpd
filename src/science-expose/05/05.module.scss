@@ -1,0 +1,22 @@
+.video {
+  height: 326px;
+  width: 100vw;
+  position: absolute;
+  top: 350px;
+  @media screen and (max-height: 668px) {
+    top: calc(var(--vh, 1vh) * 40);
+  }
+}
+
+.body {
+  padding-top: 82px;
+  @media screen and (max-height: 668px) {
+    padding-top: 24px;
+  }
+}
+
+.logo {
+  height: 35px;
+  width: 170px;
+  margin-top: 10px;
+}

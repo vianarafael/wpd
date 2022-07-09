@@ -1,0 +1,26 @@
+.video {
+  position: absolute;
+  z-index: 1;
+  top: min(150px, 10%);
+  right: -100px;
+  width: calc(var(--vh, 1vh) * 70);
+  top: min(150px, 10%);
+  right: -116px;
+
+  &.show {
+    z-index: 1;
+  }
+
+  &.hide {
+    z-index: -1;
+  }
+}
+.overlayBottom{
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 540px;
+  background: linear-gradient(0deg, #000000 21.71%, rgba(0, 0, 0, 0) 96.13%);
+}

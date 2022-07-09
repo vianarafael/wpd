@@ -1,0 +1,16 @@
+{
+  "extends": ["react-app", "eslint:recommended", "plugin:react/recommended"],
+  "rules": {
+    "react/display-name": "off",
+    "react/react-in-jsx-scope": "off",
+    "jsx-a11y/alt-text": "off",
+    "import/no-anonymous-default-export": "off",
+    "indent": ["error", 2],
+    "quotes": ["error", "single"],
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["off"],
+    "object-curly-spacing": ["error", "always"],
+    "no-undef": "off"
+  },
+  "ignorePatterns": "virtual-event/src/azuremediaplayer.d.ts"
+}

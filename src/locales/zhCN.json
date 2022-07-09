@@ -1,0 +1,190 @@
+{
+  "livestream": {
+    "title": "全球PITERA™线上庆典直播 ",
+    "desc": "参加我们的全球首映式，欣赏SK-II挚爱\n品牌大使惊艳的素颜摄影佳作。",
+    "cta": "PITERA™ 源泉",
+    "LIVE": "直播",
+    "item1.title": "《深夜肖像》全球首映",
+    "item1.time": "晚上6.15点",
+    "item2.title": "采访Melodee Morita、Mina（TWICE）\n和Ayaka Miyoshi",
+    "item2.time": "即將開始"
+  },
+  "landingPage": {
+    "date": {
+      "01": "2022年7月13日",
+      "02": "晚上 6 點"
+    },
+    "description": {
+      "01": "在这一天，",
+      "02": "体验初现之惊喜；",
+      "03": "开启发现之旅；\n见证奇迹时刻。",
+      "04": "现在登录，加入SK-II全球PITERA™线上庆典，\n 感受万千挚爱护肤成分—PITERA™的魅力。",
+      "05": "Scan to launch our virtual celebration on mobile."
+    }
+  },
+  "essence": {
+    "01": {
+      "logo": "科研發現",
+      "name": "青春露",
+      "tagLine": "我們的主打精華，含有 90% 以上的 PITERA™，\n為您打造容光喚發的肌膚。",
+      "hook": "PITERA™：SK-II 獨有的天然成份，採用獨特酵\n母菌株的專有發酵工藝製成。（SK-II 專有半乳糖酵母樣菌\n發酵濾液——肌膚調理劑）"
+    },
+    "02": {
+      "title": "全球首創 SK-II 全天候肌膚波動研究\nPITERA™ 全新發現",
+      "desc": "一天之內，肌膚狀況會產生巨大變化，\n由於每日的壓力源，肌膚甚至會看\n起來老了 10 歲。"
+    },
+    "03": {
+      "title": "肌膚自如吸收",
+      "name": "PITERA™",
+      "desc": "PITERA™ 如同肌膚的天然保濕因子。\n肌膚能識別並歡迎 PITERA™，幫助其迅速吸收\n至肌膚底層*，帶來所有益處**，為您打造晶瑩\n剔透的肌膚。",
+      "footnote1": "*角質層內",
+      "footnote2": "** 50多種微量營養素"
+    },
+    "04": {
+      "header": "功效",
+      "title": "PITERA™\n打造晶瑩剔透的肌膚",
+      "next": "接下來"
+    },
+    "carousel1": {
+      "header": "內部肌膚保濕",
+      "text": "PITERA™ 補充肌膚天然保濕因子，\n鎖住肌膚水分。為您減少由外部因\n素引起的肌膚缺水。",
+      "footnote": ""
+    },
+    "carousel2": {
+      "header": "抗老護理",
+      "text": "PITERA™ 抑制提前衰老，修復肌膚水\n分屏障，保持肌膚水嫩細膩。PITERA™\n可以極大減少因缺水出現的細紋，\n緊緻您的肌膚。",
+      "footnote": ""
+    },
+    "carousel3": {
+      "header": "加強*和修復",
+      "text": "PITERA™ 加強肌膚屏障，保護肌膚免受\n環境壓力源的影響。PITERA™ 能修復和\n預防由內外壓力源和抗氧化\n引起的肌膚受損。",
+      "footnote": "*角質層內"
+    }
+  },
+  "cream": {
+    "01": {
+      "logo": "科研發現",
+      "name": "肌活能量活膚霜",
+      "tagLine": " SK-II 暢銷產品，\n撫平早衰跡象的護膚霜。"
+    },
+    "02": {
+      "title": "基於 40 多年肌膚老化科研發現",
+      "01": "1. 亞洲人的肌膚在年輕時更快失去彈性。",
+      "02": "2.肌膚不再緊緻是多個早衰跡象的首個觸\n發因素。",
+      "03": "3.緊緻不僅僅是指肌膚不下垂——只有解\n決整體肌膚狀況才能實現真正的緊緻。"
+    },
+    "03": {
+      "01": {
+        "title": "成份亮點",
+        "name": "PITERA™ X \nMULTI-FIRM科技",
+        "desc": "SK-II 唯一一款 PITERA™ 結合尖端\nMulti-Firm科技的抗早衰產品。",
+        "finePrint": "",
+        "footnotes": ""
+      },
+      "02": {
+        "title": " ",
+        "name": "添加 PITERA™",
+        "desc": "PITERA™ 強化肌底，實現多重緊緻。PITERA™\n的親膚性使其能深入滲透肌膚底層*，補充內部\n水分，緊緻肌膚結構，增強皮膚屏障。",
+        "finePrint": "PITERA™：SK-II 獨有的天然成份，採用獨特酵母菌株的專\n有發酵工藝製成。（SK-II 專有半乳糖酵母樣菌發酵濾液\n——肌膚調理劑）",
+        "footnotes": "*角質層內\n** 50多種微量營養素"
+      },
+      "03": {
+        "title": "加強",
+        "name": "MULTI-FIRM科技",
+        "desc": "著眼於細胞再生和促進肌膚各層膠原蛋白生\n成的科學。透過水合作用提高肌膚密度和體積。",
+        "finePrint": "",
+        "footnotes": ""
+      }
+    },
+    "04": {
+      "header": "功效",
+      "title": "所有角度實\n現多維緊緻",
+      "next": "接下來"
+    },
+    "carousel1": {
+      "header": "肌膚光滑水潤",
+      "text": " SKINPOWER 能量精華霜保持肌膚\n水嫩細膩，同時減少細紋、\n皺紋並縮小毛孔。 "
+    },
+    "carousel2": {
+      "header": "更完整的結構",
+      "text": "SKINPOWER 能量精華霜補充內部水\n分並緊緻肌膚結構，抵抗肌膚鬆弛下垂。 "
+    },
+    "carousel3": {
+      "header": "更強的屏障",
+      "text": " SKINPOWER 能量精華霜抵抗肌膚紅腫、\n粗糙和脫皮。"
+    }
+  },
+  "genoptics": {
+    "01": {
+      "logo": "科研發現",
+      "name": "SK-II超肌因鑽\n光淨白精華",
+      "tagLine": " SK-II 無可爭議的銷量 NO.1 提亮精華",
+      "hook": " *截至 2021 年 10 月相關市場的銷售額和銷售量的統計數據"
+    },
+    "02": {
+      "title": "基於 25 年的科研發現",
+      "desc": " 肌膚暗沉不僅是因黑色素或色\n素沉澱所引起。肌膚暗沉是由多個\n「可見斑與隱形斑」所引起，\n這些因素會呈現在肌膚表面，\n或深藏肌底*，以色斑的形式呈現。",
+      "footnote": "* 角質層"
+    },
+    "03": {
+      "01": {
+        "title": "成份亮點",
+        "name": "PITERA™ X GENOPTICS \nAURA COCKTAIL",
+        "desc": "結合 SK-II 獨一無二的 PITERA™ 成份和最先進的\nGenOptics Aura 科技，降低可見斑與隱形\n斑形成，讓肌膚由內而外煥發鑽光淨白。",
+        "finePrint": "",
+        "footnotes": ""
+      },
+      "02": {
+        "title": " ",
+        "name": "富含 PITERA™",
+        "desc": "PITERA™ 為鑽光肌膚提供基礎。PITERA™ 的親\n膚性使其能深入滲透肌膚底層*，改善肌膚表層\n和肌底的色斑，為肌膚帶來晶瑩剔透的蛻變。",
+        "finePrint": "PITERA™：SK-II独家天然成分，由独一无二的酵母菌株经\n专利发酵工艺生成。（SK-II专有半乳糖酵母\n发酵滤液——肌肤调理剂）",
+        "footnotes": "*角质层内\n**50多种微量营养素”"
+      },
+      "03": {
+        "title": "加強",
+        "name": "GENOPTICS AURA\nCOCKTAIL",
+        "desc": "採用 SK-II 最先進的亮白混合成份與\nDe-Melano P3C®減少暗沉和黑斑。",
+        "finePrint": "",
+        "footnotes": ""
+      }
+    },
+    "04": {
+      "header": "功效",
+      "title": "使您煥發\n淨白光蘊",
+      "next": "接下來"
+    },
+    "carousel1": {
+      "header": " 對抗「可見斑與隱形斑」",
+      "text": " 針對所有皮膚層*，抑制「可見斑與隱形\n斑」， 改善皮膚暗沉。",
+      "footnote": "*角質層內"
+    },
+    "carousel2": {
+      "header": "清除肌膚表層和肌底色斑",
+      "text": "  由黑色素和炎症引起的色斑和斑\n點會阻礙肌膚煥發淨白光蘊 ",
+      "footnote": ""
+    },
+    "carousel3": {
+      "header": "釋放肌膚光蘊",
+      "text": "減少色斑和斑點，\n從內部提亮肌膚光采。",
+      "footnote": ""
+    }
+  },
+  "welcome": {
+    "description": "感受SK-II经典核心成分,\n沉浸于PITERA™的奇迹世界。",
+    "joinLiveStreamButtonText": "加入直播间",
+    "replayLiveStreamButtonText": "加入直播间"
+  },
+  "home": {
+    "instructionText": "轻触水滴开启",
+    "privacyLinkText": "隐私",
+    "termsLinkText": "条款与条件",
+    "DoNotSellMyPersonalInformationLinkText": "Do Not Sell My Personal Information",
+    "CAPrivacyLinkText": "CA Privacy"
+  },
+  "pitera-essentials": {
+    "instructionPTE": "轻触了解万千挚爱「神仙水*」。",
+    "instructionSPC": "按一下一抹*赋能「大红瓶*」更多關。",
+    "instructionGAE": "轻触了解王牌星品「小灯泡*」。"
+  }
+}

@@ -1,0 +1,27 @@
+
+.popupContainer{
+  padding: 0;
+  white-space: pre-wrap;
+  margin-top: 43px;
+}
+.video {
+  position: absolute;
+  bottom: -200px;
+  right: -116px;
+  width: calc(var(--vh, 1vh) * 70);
+}
+
+.logo {
+  width: 48px;
+  height: 20px;
+}
+
+.overlayBottom{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 343px;
+  background: linear-gradient(0deg, #000000 6.29%, rgba(0, 0, 0, 0) 96.13%);
+  opacity: 0.8;
+}

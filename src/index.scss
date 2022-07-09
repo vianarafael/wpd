@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'Domaine Sans Text';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: local('Domaine Sans Text'),
+    url('./assets/fonts/DomaineSansText-Regular.ttf') format('truetype'),
+    url('./assets/fonts/DomaineSansText-Regular.woff2') format('woff2'),
+    url('./assets/fonts/DomaineSansText-Regular.woff') format('woff'),
+    url('./assets/fonts/DomaineSansText-Regular.eot')
+      format('embedded-opentype');
+}
+
+@font-face {
+  font-family: Trenda;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: local('Trenda'),
+    url('./assets/fonts/Trenda-Regular.ttf') format('truetype'),
+    url('./assets/fonts/Trenda-Regular.woff2') format('woff2'),
+    url('./assets/fonts/Trenda-Regular.woff') format('woff'),
+    url('./assets/fonts/Trenda-Regular.eot') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans CJK SC';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: local('Noto Sans CJK SC'), local('Noto Sans Simplified Chinese'),
+    url('./assets/fonts/NotoSansCJKsc-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans CJK TC';
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: local('Noto Sans CJK TC'), local('Noto Sans Traditional Chinese'),
+    url('./assets/fonts/NotoSansCJKtc-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Sans CJK TC';
+  font-weight: lighter;
+  font-style: normal;
+  font-display: swap;
+  src: local('Noto Sans CJK TC'), local('Noto Sans Traditional Chinese'),
+    url('./assets/fonts/NotoSansCJKtc-DemiLight.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Domaine Display Narrow';
+  src: local('Domaine Display Narrow'),
+    url('./assets/fonts/DomaineDispNar-Regular.otf') format('truetype');
+}
+
+html {
+  height: stretch;
+  padding: env(safe-area-inset);
+}
+
+body {
+  margin: 0;
+  background: #E7DAC8;
+  /* mobile viewport bug fix */
+  height: stretch;
+  width: stretch;
+  overflow: hidden;
+  font-family: 'Domaine Sans Text', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}

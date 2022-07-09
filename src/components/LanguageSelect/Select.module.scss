@@ -1,0 +1,75 @@
+.select {
+  height: 32px;
+  overflow: visible;
+  margin-left: auto;
+}
+
+.drop-down {
+  margin-top: 4px;
+  transform: scaleY(0);
+}
+
+.drop-down-open {
+  animation: growDown 800ms ease-in-out forwards;
+  transform-origin: top center;
+}
+
+@keyframes growDown {
+  0% {
+    transform: scaleY(0);
+  }
+
+  80% {
+    transform: scaleY(1.1);
+  }
+
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+.drop-down-closed {
+  animation: growUp 800ms ease-in-out forwards;
+  transform-origin: top center;
+}
+
+@keyframes growUp {
+  0% {
+    transform: scaleY(1);
+  }
+
+  100% {
+    transform: scaleY(0);
+  }
+}
+
+.language {
+  font-family: "Domaine Sans Text", "Noto Sans CJK SC", "Noto Sans CJK TC";
+  width: 32px;
+  height: 32px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 4px;
+  letter-spacing: -0.01em;
+
+  &:active {
+    background: #ea0429;
+    color: white;
+  }
+}
+
+.language-active {
+  display: none;
+}
+
+.current-language {
+  font-weight: 600;
+  margin: 0;
+}

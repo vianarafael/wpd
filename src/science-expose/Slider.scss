@@ -1,0 +1,53 @@
+.slider {
+  &.rc-slider {
+    padding: 15px 0;
+    border: none;
+  }
+
+  .rc-slider-rail {
+    height: 2px;
+    background-color: #404040;
+  }
+
+  .rc-slider-track {
+    height: 2px;
+    background: linear-gradient(90deg, #ff6780 16.67%, #ea0429 104.08%);
+  }
+
+  .rc-slider-mark {
+    display: none;
+  }
+
+  .rc-slider-dot {
+    border: none;
+    bottom: -1px;
+
+    &:not(:first-of-type):not(:last-of-type) {
+      display: none;
+    }
+
+    &.rc-slider-dot-active {
+      border-color: white;
+    }
+  }
+
+  &.with-dots .rc-slider-dot {
+    display: block !important;
+  }
+
+  .rc-slider-handle {
+    opacity: 1;
+    width: 20px;
+    height: 20px;
+    border: none;
+    margin-top: -8px;
+    background: #fff;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+
+    &.rc-slider-handle-dragging {
+      transform: none;
+      border: none;
+      box-shadow: none;
+    }
+  }
+}

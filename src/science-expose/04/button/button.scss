@@ -1,0 +1,87 @@
+:root {
+  /* CTA variables */
+  --cta-font-size: 12px;
+  --cta-width: 151px;
+  --cta-height: 48px;
+  --cta-color: #fff;
+  --cta-border-width: 1px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.cta {
+  position: relative;
+  width: var(--cta-width);
+  height: var(--cta-height);
+  border: var(--cta-border-width) solid var(--cta-color);
+  border-radius: 30px;
+  color: #fff;
+  font-size: var(--cta-font-size);
+  box-shadow: 0 0 0 #888;
+
+  &__content {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    right: -1px;
+    bottom: -1px;
+    overflow: hidden;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateZ(0);
+  }
+
+  &__wave {
+    position: absolute;
+    right: 0;
+    top: 100%;
+
+  }
+
+  &__copy {
+    position: relative;
+  }
+
+  &__halo {
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    width: 120%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__particule-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    // border: 1px solid red;
+  }
+
+  &__particule {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0;
+  }
+}
+
+.gradient {
+  background:
+    linear-gradient(
+      0deg,
+      rgb(225 210 185 / 100%) 0%,
+      rgb(238 230 217 / 100%) 100%
+    );
+  color: #000;
+}

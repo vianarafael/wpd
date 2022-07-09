@@ -1,0 +1,32 @@
+.header-wrapper {
+  display: flex;
+  position: fixed;
+  top: 51px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 28px;
+  width: 100vw;
+
+  img {
+    width: 35px;
+  }
+}
+
+.hidden-back {
+  width: 25px;
+}
+
+.hidden-menu {
+  width: 9px;
+}
+
+.header-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+}

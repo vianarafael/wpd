@@ -1,0 +1,134 @@
+.video {
+  position: absolute;
+  z-index: 3;
+  top: 96px;
+  left: 0;
+  width: 100vw;
+  height: 250px;
+  @media screen and (max-height: 668px) {
+    height: 200px;
+  }
+}
+
+.graph {
+  position: absolute;
+  top: 346px;
+  z-index: 2;
+  width: 312px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  .graphHeader {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 170%;
+    letter-spacing: 0.3em;
+  }
+
+  .textBefore {
+    text-align: left;
+  }
+
+  .textAfter {
+    text-align: right;
+  }
+
+  .textActive {
+    opacity: 1;
+  }
+
+  .textPassive {
+    opacity: 0.2;
+  }
+
+  .light {
+    color: #fff;
+  }
+
+  .dark {
+    color: #999;
+  }
+
+  .graphVideo {
+    position: relative;
+    overflow: hidden;
+    height: 146px;
+    width: 312px;
+
+    > video {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      left: 0;
+    }
+
+    .indicator {
+      position: absolute;
+      transition: all 0.9s;
+      left: 0;
+      top: 0;
+      height: 117px;
+      width: 0;
+      border: 0.5px solid #fff;
+    }
+  }
+
+  @media screen and (max-height: 668px) {
+    top: 280px;
+  }
+}
+
+.sliderWrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 26px;
+  padding-left: 8px;
+
+  .wrapBottle {
+    position: relative;
+    width: 20px;
+    height: 71px;
+
+    .bottle {
+      z-index: 2;
+      position: relative;
+    }
+
+    .bottleAnimation {
+      position: absolute;
+      bottom: 4px;
+      z-index: 1;
+
+      .topBottle {
+        position: absolute;
+        top: -4px;
+        left: 0;
+        width: 20px;
+      }
+
+      .wrapBody {
+        position: relative;
+        overflow: hidden;
+        width: 20px;
+        transition: all 0.9s;
+
+        img {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          height: 50px;
+        }
+      }
+    }
+
+    img {
+      width: 20px;
+    }
+  }
+}

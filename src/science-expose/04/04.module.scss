@@ -1,0 +1,35 @@
+.video {
+  width: 100%;
+  margin: 40px 0;
+  margin-bottom: 165px;
+  @media screen and (max-width: 375px) {
+    margin-bottom: 124px;
+  }
+  @media screen and (max-height: 811px) {
+    margin-bottom: 40px;
+  }
+}
+
+.title {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 170%;
+  letter-spacing: 0.3em;
+}
+
+.title1 {
+  color: #fff;
+}
+
+.title2 {
+  color: #999;
+}
+
+
+.bodyPopup{
+  @media screen and (min-height: 811px) {
+    margin-top: 140px;
+    flex: unset;
+    margin-bottom: 78px;
+  }
+}
